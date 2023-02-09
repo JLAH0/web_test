@@ -1,0 +1,41 @@
+.grid {
+display: grid;
+grid-template-rows: repeat(3, 75px) 50px;
+grid-template-columns: 80px 1fr;
+row-gap: 10px;
+column-gap: 10px;
+}
+
+.grid>div:last-of-type {
+    grid-column: span 2;
+}
+
+.rouge {
+    background-color: red;
+}
+
+.bleu {
+background-color: blue;}
+
+.jaune {
+    background-color: yellow;
+}
+
+.grid2>div {
+    border: 2px solid red;
+}
+
+.grid2 {
+    margin-top: 50px;
+    display: grid;
+    grid-template-rows: 50px 80px 50px 70px 70px 50px;
+    grid-template-columns: 80px 1fr;
+    row-gap: 10px;
+    column-gap: 10px ;
+    }
+.grid2>div: :first-of-type {
+    grid-colum: span 2
+}
+
+
+

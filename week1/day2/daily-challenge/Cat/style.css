@@ -1,0 +1,31 @@
+h1 {
+    text-transform: capitalize;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 20px;
+}
+
+.mark_ {
+    padding-left: 5px;
+    padding-right: 5px;    
+}
+h3 {text-align: center;
+
+}
+
+img { 
+    max-width: 100%;
+    height: auto;
+    border: 8px solid orange;
+    margine: auto;
+}
+
+.padding_left {
+    padding-left: 20px;
+}
+
+.header {
+    border: 1px solid red;
+}
+.width_full {
+max-width: 100%;
+}
