@@ -1,0 +1,27 @@
+body {
+margin: 0;
+font-size: 14px;
+background-color: lightblue;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)
+    grid-template-row; 
+    column-gap: 10px;
+}
+.grid>div:first-of-type {
+    grid-column: span 3;
+}
+
+div {
+    width:auto;
+    height: 50px;
+    background-color: white;
+    border: 1px solid; color: lightgrey;
+}
+
+.amount {
+    height: 100px;
+    text-align: center;
+}
