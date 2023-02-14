@@ -1,0 +1,12 @@
+.yellow-box {
+    background-color: white;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.col-md-4 {
+background-color: white;
+height: 30px;
+border: 1px solid black;
+}
+
