@@ -11,7 +11,7 @@ const myWatchedSeries = ["black mirror", "money heist", "the big bang theory"];
 let myWatchedSeriesLength = myWatchedSeries;
 console.log(myWatchedSeriesLength.length);
 
-let myWatchedSeriesSentence = `series ${myWatchedSeries[0]}, ${myWatchedSeries[1]} and ${myWatchedSeries[1]}`
+let myWatchedSeriesSentence = `series ${myWatchedSeries[0]}, ${myWatchedSeries[1]} and ${myWatchedSeries[1]}`;
 console.log(myWatchedSeriesSentence)
 
 console.log(`I like to watch ${myWatchedSeriesLength.length} ${myWatchedSeriesSentence}`)
@@ -21,19 +21,24 @@ console.log(`I like to watch ${myWatchedSeriesLength.length} ${myWatchedSeriesSe
 const mynewWatchedSeries = ["black mirror", "money heist", "the big bang theory"];
 
 const index = mynewWatchedSeries.indexOf(`the big bang theory`);
-mynewWatchedSeries.splice (index, 3, `friends`);
-mynewWatchedSeries.push (`house of the dragon`)
-mynewWatchedSeries.unshift (`The Rings of Power`)
-mynewWatchedSeries.splice(1,1)
-let letter = `money heist`
-console.log(letter.indexOf('n'))
-console.log(mynewWatchedSeries)
+mynewWatchedSeries.splice(index, 3, `friends`);
+mynewWatchedSeries.push(`house of the dragon`);
+mynewWatchedSeries.unshift(`The Rings of Power`);
+mynewWatchedSeries.splice(1, 1);
+let letter = `money heist`;
+console.log(letter.indexOf('n'));
+console.log(mynewWatchedSeries);
 
 // Exercise 3 : The Temperature Converter
 
-// let celsius = 28
-// let fahrenheit = celsius/5
-// let fahrenheit = fahrenheit * 9
+let celsius = 32;
+let fahrenheit = celsius / 5;
+console.log(fahrenheit);
+fahrenheit = fahrenheit * 9;
+console.log(fahrenheit);
+fahrenheit = fahrenheit + 32;
+console.log(fahrenheit);
+console.log(`${celsius}°C is ${fahrenheit}°F.`)
 
 
 // Exercise 4 : Guess The Answers #1
@@ -42,13 +47,13 @@ let c;
 let a = 34;
 let b = 21;
 
-console.log(a+b) //first expression
+console.log(a + b) //first expression
 // Prediction: 55
 // Actual:
 
 a = 2;
 
-console.log(a+b) //second expression
+console.log(a + b) //second expression
 // Prediction: 23
 // Actual:
 
@@ -56,125 +61,155 @@ console.log(a+b) //second expression
 // Exercise 5 : Guess The Answers #2
 
 
-typeof(15)
+typeof (15)
+// console.log(typeof (15))
 // Prediction: number
-// Actual:
+// Actual: number
 
-typeof(5.5)
+typeof (5.5)
+// console.log(typeof (5.5))
 // Prediction: number
-// Actual:
+// Actual: number
 
-typeof(NaN)
+typeof (NaN)
+// console.log(typeof (NaN))
 // Prediction: number
-// Actual:
+// Actual: number
 
-typeof("hello")
+typeof ("hello")
+// console.log(typeof ("hello"))
 // Prediction: string
-// Actual:
+// Actual: string
 
-typeof(true)
+typeof (true)
+// console.log(typeof (true))
 // Prediction: boolean
-// Actual:
+// Actual: boolean
 
-typeof(1 != 2)
+typeof (1 != 2)
+// console.log(typeof (1 != 2))
 // Prediction: number
-// Actual:
+// Actual: boolean
 
 "hamburger" + "s"
+// console.log("hamburger" + "s")
 // Prediction: hamburgers
-// Actual:
+// Actual:hamburgers
 
 "hamburgers" - "s"
+// console.log("hamburgers" - "s")
 // Prediction: hamburger
-// Actual:
+// Actual: NaN
 
 "1" + "3"
-// Prediction: 4
-// Actual:
+// console.log("1" + "3")
+// Prediction: 13
+// Actual: 13
 
 "1" - "3"
+// console.log("1" - "3")
 // Prediction: -2
 // Actual:
 
-"johnny" + 5
+// "johnny" + 5
+// console.log("johnny" + 5)
 // Prediction: johnny5
-// Actual:
+// Actual:johnny5
 
 "johnny" - 5
+// console.log("johnny" - 5)
 // Prediction: NAN
-// Actual:
+// Actual: NaN
 
 99 * "hello"
-// Prediction:
-// Actual:
+// console.log(99 * "hello")
+// Prediction: NAN
+// Actual: NaN
 
 1 != 1
+// console.log(1 != 1)
 // Prediction: false
-// Actual:
+// Actual: false
 
 1 == "1"
+// console.log(1 == "1")
 // Prediction: true
-// Actual:
+// Actual: true
 
 1 === "1"
+// console.log(1 === "1")
 // Prediction: false
-// Actual:
+// Actual: false
 
 
 // Exercise 6 : Guess The Answers #3
 
 5 + "34"
+// console.log(5 + "34")
 // Prediction: 534
-// Actual:
+// Actual: 534
 
 5 - "4"
-// Prediction: 4
-// Actual:
+// console.log(5 - "4")
+// Prediction: NaN
+// Actual: 1
 
 10 % 5
+// console.log(10 % 5)
 // Prediction: 0
-// Actual:
+// Actual: 0
 
 5 % 10
-// Prediction: 2
-// Actual:
+// console.log(5 % 10)
+// Prediction: 5
+// Actual: 5
 
 "Java" + "Script"
+// console.log("Java" + "Script")
 // Prediction: JavaScript
-// Actual:
+// Actual: JavaScript
 
 " " + " "
-// Prediction:
+// console.log(" " + " ")
+// Prediction:  two blank space
 // Actual:
 
 " " + 0
-// Prediction:
-// Actual:
+// console.log(" " + 0)
+// Prediction: 0
+// Actual: 0
 
 true + true
+// console.log(true + true)
 // Prediction: 2
-// Actual:
+// Actual:2
 
 true + false
+// console.log(true + false)
 // Prediction: 1
-// Actual:
+// Actual:1
 
 false + true
+// console.log(false + true)
 // Prediction: 1
-// Actual:
+// Actual: 1
 
 false - true
+// console.log(false - true)
 // Prediction: -1
-// Actual:
+// Actual: -1
 
 !true
-// Prediction:
-// Actual:
+// console.log(!true)
+// Prediction: false
+// Actual:false
 
 3 - 4
+// console.log(3 - 4)
 // Prediction: -1
-// Actual:
+// Actual:-1
 
 "Bob" - "bill"
+// console.log("Bob" - "bill")
 // Prediction: nan
-// Actual:
+// Actual: NaN
