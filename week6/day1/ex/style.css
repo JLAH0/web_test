@@ -1,0 +1,11 @@
+.banner {
+    height: 100px;
+    background-color: lightblue;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+}
